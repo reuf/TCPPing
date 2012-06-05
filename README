@@ -3,14 +3,14 @@ Instructions on how to use:
 1. - Build with Maven;
 2. - Use as instructed:
 
-   Catcher > Usage: java TCPPing –c –bind <ip-address> –port <port>
-   
-   Pitcher > Usage: java TCPPing –p –port <port> [–mps <num_of_mess>] [–size <packet_size>] <hostname>
-   
-   -p Pitcher mode, -c Cather mode;
-   -port <port> [Pitcher] TCP socket port used for connect, [Catcher] TCP socket port
-    used for listening;
-   -bind <ip_address> [Catcher] TCP socket bind address used for listening;
-   -mps <rate> [Pitcher] send rate defined as „messages per second“ Default: 1;
-   -size <size> [Pitcher] Packet size, Minimum: 50, Maximum: 3000, Default: 300;
-   <hostname> [Pitcher] name of the machine on which Catcher runs;
+Catcher > Usage: java TCPPing –c –bind <ip-address> –port <port>
+
+Pitcher > Usage: java TCPPing –p –port <port> [–mps <num_of_mess>] [–size <packet_size>] <hostname>
+
+-p Pitcher mode, -c Cather mode;
+-port <port> [Pitcher] TCP socket port used for connect, [Catcher] TCP socket port
+ used for listening;
+-bind <ip_address> [Catcher] TCP socket bind address used for listening;
+-mps <rate> [Pitcher] send rate defined as „messages per second“ Default: 1;
+-size <size> [Pitcher] Packet size, Minimum: 50, Maximum: 3000, Default: 300;
+<hostname> [Pitcher] name of the machine on which Catcher runs;
