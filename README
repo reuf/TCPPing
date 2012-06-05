@@ -7,7 +7,8 @@ Catcher > Usage: java TCPPing –c –bind <ip-address> –port <port>
 
 Pitcher > Usage: java TCPPing –p –port <port> [–mps <num_of_mess>] [–size <packet_size>] <hostname>
 
--p Pitcher mode, -c Cather mode;
+-p Pitcher mode; 
+-c Cather mode;
 -port <port> [Pitcher] TCP socket port used for connect, [Catcher] TCP socket port
  used for listening;
 -bind <ip_address> [Catcher] TCP socket bind address used for listening;
