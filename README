@@ -1,7 +1,8 @@
 Instructions on how to use:
 0. - Fork;
 1. - Build with Maven;
-2. - Use as instructed:
+2. - Execute on two different computers with access to Internet.
+3. - Use as instructed:
 
 Catcher > Usage: java TCPPing –c –bind <ip-address> –port <port>
 
