@@ -1,0 +1,30 @@
+-classpath
+'D:/eclipseworkspaces/main/NET_3_0_1RC3/target/classes'
+-encoding
+'iso-8859-1'
+-protected
+-quiet
+-source
+'1.5'
+-sourcepath
+'D:/eclipseworkspaces/main/NET_3_0_1RC3/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2001-2011 <a href="http://www.apache.org/">The Apache Software Foundation</a>. All Rights Reserved.'
+-charset
+'iso-8859-1'
+-d
+'D:/eclipseworkspaces/main/NET_3_0_1RC3/target/site/apidocs'
+-docencoding
+'iso-8859-1'
+-doctitle
+'Commons Net 3.0.1 API'
+-link
+'http://download.oracle.com/javase/1.5.0/docs/api'
+-link
+'http://java.sun.com/j2se/1.5.0/docs/api'
+-linksource
+-use
+-version
+-windowtitle
+'Commons Net 3.0.1 API'
