@@ -3,16 +3,14 @@ Instructions on how to use:
 1. - Build with Maven.
 2. - Use as instructed:
 
-private static void helper(){
-  	System.out
-		.println("Catcher > Usage: java TCPPing –c –bind <ip-address> –port <port>\n"
-				+ "Pitcher > Usage: java TCPPing –p –port <port> [–mps <num_of_mess>] [–size <packet_size>] <hostname>\n"
-				+ "-p Pitcher mode, -c Cather mode;\n"
-				+ "-port <port> [Pitcher] TCP socket port used for connect, [Catcher] TCP socket port"
-				+ " used for listening;\n"
-				+ "-bind <ip_address> [Catcher] TCP socket bind address used for listening;\n"
-				+ "-mps <rate> [Pitcher] send rate defined as „messages per second“ Default: 1;\n"
-				+ "-size <size> [Pitcher] Packet size, Minimum: 50, Maximum: 3000, Default: 300;\n"
-				+ "<hostname> [Pitcher] name of the machine on which Catcher runs;\n");
-		return;
-	}
+Catcher > Usage: java TCPPing –c –bind <ip-address> –port <port>
+
+Pitcher > Usage: java TCPPing –p –port <port> [–mps <num_of_mess>] [–size <packet_size>] <hostname>
+
+-p Pitcher mode, -c Cather mode;
+-port <port> [Pitcher] TCP socket port used for connect, [Catcher] TCP socket port
+ used for listening;
+-bind <ip_address> [Catcher] TCP socket bind address used for listening;
+-mps <rate> [Pitcher] send rate defined as „messages per second“ Default: 1;
+-size <size> [Pitcher] Packet size, Minimum: 50, Maximum: 3000, Default: 300;
+<hostname> [Pitcher] name of the machine on which Catcher runs;
